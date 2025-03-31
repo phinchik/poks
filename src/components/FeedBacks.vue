@@ -17,7 +17,7 @@ const feedbackList = [
     <h2 class="text-3xl font-bold text-center text-orange-700 mb-6">
       Customer Feedback
     </h2>
-    <div class="flex justify-center gap-6">
+    <div class="flex flex-wrap justify-center gap-6">
       <div
         v-for="(feedback, index) in feedbackList"
         :key="index"
