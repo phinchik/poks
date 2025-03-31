@@ -60,13 +60,6 @@ const goToPricing = () => {
             {{ item.title }}
           </h3>
           <p class="text-gray-700 mt-2">{{ item.description }}</p>
-          <p class="text-lg font-bold text-green-600 mt-3">Call for Pricing</p>
-          <!-- <button
-            @click="goToPricing"
-            class="mt-4 bg-orange-700 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition"
-          >
-            See Price List
-          </button> -->
         </div>
       </div>
     </div>

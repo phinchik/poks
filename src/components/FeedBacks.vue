@@ -17,11 +17,11 @@ const feedbackList = [
     <h2 class="text-3xl font-bold text-center text-orange-700 mb-6">
       Customer Feedback
     </h2>
-    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div class="flex justify-center gap-6">
       <div
         v-for="(feedback, index) in feedbackList"
         :key="index"
-        class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 flex justify-center items-center"
+        class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 flex justify-center items-center w-96"
       >
         <img
           :src="feedback.image"
