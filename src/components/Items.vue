@@ -1,12 +1,12 @@
 <script setup>
 import { useRouter } from "vue-router"; // Import router for redirection
 import { ref } from "vue";
-import pig1 from "@/assets/pokspig1.jpg";
-import pig2 from "@/assets/poks1.jpg";
-import pig3 from "@/assets/poksprofile.jpg";
-import cow1 from "@/assets/poksbaka.jpg";
-import cow2 from "@/assets/poksbaka2.jpg";
-import cow3 from "@/assets/poksbaka3.jpg";
+import pig1 from "@/assets/pig3.jpg";
+import pig2 from "@/assets/pig4.jpeg";
+import pig3 from "@/assets/pig7.jpeg";
+import cow1 from "@/assets/cow1.jpg";
+import cow2 from "@/assets/cow2.jpg";
+import cow3 from "@/assets/cow3.jpg";
 
 const availableItems = [
   {

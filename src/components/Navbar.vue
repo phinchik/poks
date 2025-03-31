@@ -1,5 +1,5 @@
 <script setup>
-import logo from "@/assets/poksprofile.jpg";
+import logo from "@/assets/pig8.jpg";
 </script>
 
 <template>

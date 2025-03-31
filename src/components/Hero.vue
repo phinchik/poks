@@ -1,6 +1,6 @@
 <script setup>
 import { defineProps } from "vue";
-import backgroundImg from "@/assets/poks1.jpg";
+import backgroundVideo from "@/assets/video/video1.mp4"; // Replace with your actual video file
 
 defineProps({
   title: {
@@ -16,10 +16,19 @@ defineProps({
 
 <template>
   <!-- Hero Section -->
-  <section
-    class="relative py-20 mb-4 bg-cover bg-center bg-no-repeat"
-    :style="{ backgroundImage: `url(${backgroundImg})` }"
-  >
+  <section class="relative py-20 mb-4">
+    <!-- Video Background -->
+    <video
+      class="absolute inset-0 w-full h-full object-cover"
+      autoplay
+      loop
+      muted
+      playsinline
+    >
+      <source :src="backgroundVideo" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
     <!-- Full-width black overlay -->
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 

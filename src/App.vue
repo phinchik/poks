@@ -5,6 +5,7 @@ import Locations from "@/components/Locations.vue";
 import FeedBacks from "@/components/FeedBacks.vue";
 import Items from "@/components/Items.vue";
 import Pricing from "@/components/Pricing.vue";
+import ImageGallery from "@/components/ImageGallery.vue";
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import Pricing from "@/components/Pricing.vue";
   <Items />
   <Pricing />
   <FeedBacks />
+  <ImageGallery />
 </template>
